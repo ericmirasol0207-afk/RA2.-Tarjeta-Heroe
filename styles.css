@@ -103,20 +103,6 @@ body {
     display: block;
 }
 
-/* Aura Animada alrededor del avatar (Reto Opcional) */
-.avatar-container {
-    position: relative;
-    border: 3px solid #ffc300;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    background-color: #333; 
-    margin-bottom: 20px;
-    overflow: hidden; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
 
 @keyframes rotate-aura {
     0% { transform: rotate(0deg); }
