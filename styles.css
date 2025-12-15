@@ -85,15 +85,22 @@ body {
     background-color: #333; 
     margin-bottom: 20px;
     overflow: hidden; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Ajusta la imagen (el logo) dentro del contenedor circular */
 .hero-logo {
-    width:200%; 
-    height: 200%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 120%; 
+    height: auto;
+    
     display: block;
     z-index: 2; 
 }
