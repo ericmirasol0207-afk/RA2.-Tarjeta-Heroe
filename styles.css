@@ -92,7 +92,7 @@ body {
 
 /* Ajusta la imagen (el logo) dentro del contenedor circular */
 .hero-logo {
-    width: 100%; 
+    width: 40%; 
     height: auto;
     display: block;
     z-index: 2; 
